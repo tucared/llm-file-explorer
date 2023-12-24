@@ -18,10 +18,10 @@ Adapted from [LlamaIndex Blog](https://blog.llamaindex.ai/running-mixtral-8x7-lo
     pip install -r requirements.txt
     ```
 
-2. Launch Ollama `mistral` model in another terminal
+2. Launch Ollama `llama2` model in another terminal
 
     ```shell
-    ollama run mistral
+    ollama run llama2
     ```
 
 3. Run smoke test

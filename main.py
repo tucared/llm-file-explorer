@@ -24,7 +24,7 @@ def main(query):
     storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
     # Setup service context
-    llm = Ollama(model="mistral")
+    llm = Ollama(model="llama2")
     service_context = ServiceContext.from_defaults(llm=llm, embed_model="local")
 
     # Build index
