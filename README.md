@@ -9,3 +9,23 @@ Adapted from [LlamaIndex Blog](https://blog.llamaindex.ai/running-mixtral-8x7-lo
 - Ollama for language model interaction.
 - LlamaIndex for file indexing.
 - Qdrant vector database for efficient vector search.
+
+## Usage
+
+1. [Create a vitual environement and] install dependencies
+
+    ```shell
+    pip install -r requirements.txt
+    ```
+
+2. Launch Ollama `mistral` model in another terminal
+
+    ```shell
+    ollama run mistral
+    ```
+
+3. Run smoke test
+
+    ```shell
+    python3 test.py
+    ```

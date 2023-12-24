@@ -1,0 +1,7 @@
+llama-index
+qdrant-client
+torch
+transformers
+
+# Local
+mypy
