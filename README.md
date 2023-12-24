@@ -30,8 +30,8 @@ Adapted from [LlamaIndex Blog](https://blog.llamaindex.ai/running-mixtral-8x7-lo
     python3 test.py
     ```
 
-4. Run query on document
+4. Add your CV as input data (`data/cv.pdf`) and run query on document
 
     ```shell
-    python3 main.py
+    python3 main.py "Give me 100-word summary of this CV"
     ```
