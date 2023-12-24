@@ -29,3 +29,9 @@ Adapted from [LlamaIndex Blog](https://blog.llamaindex.ai/running-mixtral-8x7-lo
     ```shell
     python3 test.py
     ```
+
+4. Run query on document
+
+    ```shell
+    python3 main.py
+    ```
